@@ -1,0 +1,15 @@
+.skills{
+    width: 100%;
+}
+
+.skills-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
