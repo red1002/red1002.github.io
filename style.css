@@ -99,3 +99,35 @@ body{
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
+
+.fade-in-element {
+    animation: fade-in 1s ease-in-out;
+}
+
+.mi-elemento {
+  animation-name: fadeRight;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1; /* Repetir solo una vez */
+  animation-fill-mode: forwards; /* Mantener el estado final después de la animación */
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px); /* Desplazamiento inicial hacia la izquierda */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Sin desplazamiento (posición final) */
+  }
+}
