@@ -83,9 +83,22 @@ body{
 }
 
 .productos{
-	width: 100%;
 	min-height: 400px;
 	margin-top: 250px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 40px;
+}
+
+.textProductos{
+	color: white;
+}
+
+.productBox{
+	width: 100%;
+	min-height: 400px;
+	margin-top: 50px;
 	padding: 10px 0px;
 	display: flex;
 	flex-wrap: wrap;
@@ -115,9 +128,14 @@ body{
 	border-top-left-radius: 10px;
 }
 
+.cardTitle{
+	font-size: 25px;
+}
+
 .cardText{
 	text-align: justify;
 	padding: 0px 3px;
+	font-size: 17px;
 }
 
 .contactos{
