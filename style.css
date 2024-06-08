@@ -247,3 +247,18 @@ footer{
 		width: 50px;
 	}
 }
+
+@media screen and (width: 540px){
+	.titleHero{
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.hero img{
+		width: 290px;
+	}
+
+	.iconContacto{
+		width: 50px;
+	}
+}
