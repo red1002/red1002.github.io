@@ -15,12 +15,15 @@ body{
 }
 
 .header{
+	position: sticky;
+	top: 0;
 	width: 100%;
 	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	color: white;
+	background: rgb(131,58,180);
 }
 
 .logoHeader{
@@ -67,7 +70,6 @@ body{
 	border-radius: 20px;
 	margin-top: 100px;
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
 	color: rgb(131,58,180);
@@ -78,6 +80,8 @@ body{
 	margin-left: 40px;
 	font-size: 50px;
 }
+
+
 
 .productos{
 	min-height: 400px;
@@ -139,7 +143,6 @@ body{
 	width: 100%;
 	height: 300px;
 	margin-top: 100px;
-	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -147,8 +150,8 @@ body{
 	justify-content: center;
 	gap: 100px;
 	background-color: white;
-	border-top-right-radius: 250px;
-	border-bottom-left-radius: 250px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 .textContacto{
@@ -259,6 +262,6 @@ footer{
 	}
 
 	.iconContacto{
-		width: 50px;
+		width: 55px;
 	}
 }
